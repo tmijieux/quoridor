@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	board.h	/^    A = 0, $/;"	e	enum:__anon3
+B	board.h	/^    B,$/;"	e	enum:__anon3
+BLACK	board.h	14;"	d
+BOARD_H	board.h	8;"	d
+BOARD_SIZE	board.h	10;"	d
+C	board.h	/^    C,$/;"	e	enum:__anon3
+CFLAGS	Makefile	/^CFLAGS=-std=c99 -Wall -g$/;"	m
+D	board.h	/^    D,$/;"	e	enum:__anon3
+DOWN	board.h	/^    DOWN$/;"	e	enum:__anon1
+E	board.h	/^    E,$/;"	e	enum:__anon3
+EMPTY	board.h	12;"	d
+EXTERN_STRAT	registry.h	7;"	d
+F	board.h	/^    F,$/;"	e	enum:__anon3
+G	board.h	/^    G,$/;"	e	enum:__anon3
+H	board.h	/^    H,$/;"	e	enum:__anon3
+HORIZONTAL	board.h	/^    HORIZONTAL = 0,$/;"	e	enum:__anon2
+I	board.h	/^    I$/;"	e	enum:__anon3
+INTERFACE_C	interface.c	14;"	d	file:
+INTERFACE_C	interface.c	16;"	d	file:
+INTERFACE_H	interface.h	7;"	d
+INTERFACE_PRIVATE_H	interface_private.h	7;"	d
+LEFT	board.h	/^    LEFT = 0,$/;"	e	enum:__anon1
+LEFT_MARGIN	ncurses.c	10;"	d	file:
+LIBS	Makefile	/^LIBS=-lncurses$/;"	m
+LINE_SIZE	main.c	18;"	d	file:
+MARK_USED	interface.c	18;"	d	file:
+MAX_STRATEGIES	registry.h	20;"	d
+MAX_WALLS	board.h	17;"	d
+MAX_WALLS_PER_PLAYER	board.h	16;"	d
+NCURSES_H	ncurses.h	7;"	d
+OBJ	Makefile	/^OBJ = $(patsubst %.c, %.o, $(SRC)) $/;"	m
+OBJCOPY	Makefile	/^  OBJCOPY = $(LD) -r -unexported_symbol '*' -o$/;"	m
+OBJCOPY	Makefile	/^  OBJCOPY = objcopy --strip-unneeded$/;"	m
+REGISTER_STRATEGY	registry.h	24;"	d
+RIGHT	board.h	/^    RIGHT,$/;"	e	enum:__anon1
+SERVER_H	server.h	7;"	d
+SRC	Makefile	/^SRC = \\$/;"	m
+TARGET	Makefile	/^TARGET=$(TARGET_DIR)\/quoridor$/;"	m
+TARGET_DIR	Makefile	/^TARGET_DIR=..\/bin$/;"	m
+TOP_MARGIN	ncurses.c	12;"	d	file:
+UP	board.h	/^    UP,$/;"	e	enum:__anon1
+VALUE	interface.c	270;"	d	file:
+VERTICAL	board.h	/^    VERTICAL$/;"	e	enum:__anon2
+WHITE	board.h	13;"	d
+block_player	interface.c	/^static int block_player(const struct board *b,$/;"	f	file:
+block_player__	interface.c	/^static int block_player__(const struct board *b,$/;"	f	file:
+block_player__R	interface.c	/^static int block_player__R(const struct board *b,$/;"	f	file:
+bo	interface.c	/^static struct board bo;$/;"	v	typeref:struct:board	file:
+board	board.h	/^struct board {$/;"	s
+col	board.h	/^    char col;$/;"	m	struct:player
+col	board.h	/^    char col;$/;"	m	struct:wall
+currentPlayer	board.h	/^    int currentPlayer;$/;"	m	struct:board
+dir	board.h	/^    char dir;$/;"	m	struct:wall
+gameRecord	main.c	/^FILE *gameRecord;$/;"	v
+get_current_player	interface.c	/^unsigned int get_current_player(const struct board *b)$/;"	f
+get_position	interface.c	/^int get_position(const struct board* b,$/;"	f
+has_wall	interface.c	/^static int has_wall(char column, char line,$/;"	f	file:
+init_board	interface.c	/^init_board(void)$/;"	f
+is_blockable	interface.c	/^int is_blockable(const struct board* b,$/;"	f
+is_finished	interface.c	/^int is_finished(void)$/;"	f
+is_goal	interface.c	/^static int is_goal(char line, int player)$/;"	f	file:
+is_next_to_opponent	interface.c	/^static int is_next_to_opponent(int direction)$/;"	f	file:
+is_not_next_to	interface.c	/^static int is_not_next_to(char column, char line)$/;"	f	file:
+is_passable	interface.c	/^int is_passable(const struct board* b, $/;"	f
+lastPlayer	board.h	/^    int lastPlayer;$/;"	m	struct:board
+line	board.h	/^    char line;$/;"	m	struct:player
+line	board.h	/^    char line;$/;"	m	struct:wall
+main	main.c	/^int main(int argc, char* argv[])$/;"	f
+move_pawn	interface.c	/^void move_pawn(const struct board* b,$/;"	f
+name	registry.h	/^  const char* name;$/;"	m	struct:strategy
+nbWalls	board.h	/^    int nbWalls;$/;"	m	struct:board
+nbWallsPlayer	board.h	/^    int nbWallsPlayer[2];$/;"	m	struct:board
+place_wall	interface.c	/^void place_wall(const struct board *b,$/;"	f
+play	registry.h	/^  void (* play)(const struct board *);$/;"	m	struct:strategy
+player	board.h	/^struct player {$/;"	s
+players	board.h	/^    struct player players[2];$/;"	m	struct:board	typeref:struct:board::player
+print_board	ncurses.c	/^void print_board(void)$/;"	f
+print_remaining_walls	ncurses.c	/^void print_remaining_walls(void)$/;"	f
+print_wall	ncurses.c	/^void print_wall(char column, char line, char direction)$/;"	f
+put_in_case	ncurses.c	/^void put_in_case(char column, char line,$/;"	f
+remaining_bridges	interface.c	/^unsigned int remaining_bridges(const struct board* b,$/;"	f
+strategies	registry.h	/^EXTERN_STRAT const struct strategy *strategies[MAX_STRATEGIES];$/;"	v	typeref:struct:strategy
+strategies_count	registry.h	/^EXTERN_STRAT int strategies_count;$/;"	v
+strategy	registry.h	/^struct strategy$/;"	s
+switch_player	interface.c	/^switch_player(void)$/;"	f
+wall	board.h	/^struct wall {$/;"	s
+wall_intersect	interface.c	/^static int wall_intersect(char column, char line,$/;"	f	file:
+wall_overlap	interface.c	/^static int wall_overlap(char column, char line,$/;"	f	file:
+walls	board.h	/^    struct wall walls[MAX_WALLS + 1];$/;"	m	struct:board	typeref:struct:board::wall

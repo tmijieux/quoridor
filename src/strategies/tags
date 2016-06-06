@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	strategy1.c	20;"	d	file:
+DOWN	strategy1.c	/^    DOWN$/;"	e	enum:__anon1	file:
+DOWN	strategy2.c	/^    DOWN$/;"	e	enum:__anon2	file:
+EMPTY	strategy1.c	18;"	d	file:
+LEFT	strategy1.c	/^    LEFT = 0,$/;"	e	enum:__anon1	file:
+LEFT	strategy2.c	/^    LEFT = 0,$/;"	e	enum:__anon2	file:
+QuoridorBoard	strategy2.c	/^struct QuoridorBoard {$/;"	s	file:
+RIGHT	strategy1.c	/^    RIGHT,$/;"	e	enum:__anon1	file:
+RIGHT	strategy2.c	/^    RIGHT,$/;"	e	enum:__anon2	file:
+STRAT__2	strategy2.c	6;"	d	file:
+UP	strategy1.c	/^    UP,$/;"	e	enum:__anon1	file:
+UP	strategy2.c	/^    UP,$/;"	e	enum:__anon2	file:
+WHITE	strategy1.c	19;"	d	file:
+add_element_list	list.c	/^add_element_list(void *element, struct List *list)$/;"	f
+adjacencyMatrix	strategy2.c	/^    char adjacencyMatrix[BOARD_SIZE * BOARD_SIZE];$/;"	m	struct:QuoridorBoard	file:
+block_player	strategy3.c	/^block_player(struct QuoridorBoard *board,$/;"	f	file:
+block_player__	strategy2.c	/^block_player__(struct QuoridorBoard *board,$/;"	f	file:
+block_player__aux	strategy2.c	/^block_player__aux(struct QuoridorBoard *board,$/;"	f	file:
+block_player_aux	strategy3.c	/^block_player_aux(struct QuoridorBoard *board,$/;"	f	file:
+compute_player_moves	strategy2.c	/^compute_player_moves(struct QuoridorBoard *board,$/;"	f	file:
+compute_player_moves	strategy3.c	/^compute_player_moves(struct QuoridorBoard *board,$/;"	f	file:
+compute_wall_moves	strategy2.c	/^compute_wall_moves(struct QuoridorBoard *board,$/;"	f	file:
+compute_wall_moves	strategy3.c	/^compute_wall_moves(struct QuoridorBoard *board,$/;"	f	file:
+compute_wall_moves_aux	strategy2.c	/^compute_wall_moves_aux(struct QuoridorBoard *board,$/;"	f	file:
+compute_wall_moves_aux	strategy3.c	/^compute_wall_moves_aux(struct QuoridorBoard *board,$/;"	f	file:
+destruct_list	list.c	/^destruct_list(struct List *list)$/;"	f
+djkistra_shorter_path_length	strategy2.c	/^djkistra_shorter_path_length(struct QuoridorBoard *board,$/;"	f	file:
+djkistra_shorter_path_length	strategy3.c	/^djkistra_shorter_path_length(struct QuoridorBoard *board,$/;"	f	file:
+dmin	strategy3.c	/^dmin(double a, double b)$/;"	f	file:
+do_move	strategy2.c	/^do_move(struct QuoridorBoard *board, struct Move *move)$/;"	f	file:
+do_move	strategy3.c	/^do_move(struct QuoridorBoard *board, struct Move *move)$/;"	f	file:
+empty_list	list.c	/^empty_list(void)$/;"	f
+empty_stack	char_stack.c	/^empty_stack(struct CharStack *s)$/;"	f
+get_board	strategy2.c	/^get_board(const struct board *b, struct QuoridorBoard *board)$/;"	f	file:
+get_board	strategy3.c	/^get_board(const struct board *b, struct QuoridorBoard *board)$/;"	f	file:
+get_edge_value	strategy2.c	/^get_edge_value(struct QuoridorBoard *board,$/;"	f	file:
+get_edge_value	strategy3.c	/^get_edge_value(struct QuoridorBoard *board,$/;"	f	file:
+get_element_list	list.c	/^get_element_list(unsigned int n, struct List *list)$/;"	f
+get_element_node	list.c	/^get_element_node(struct ListNode *node)$/;"	f
+get_node_list	list.c	/^get_node_list(unsigned int n, struct List *list)$/;"	f
+goal_line	strategy3.c	/^goal_line(char player)$/;"	f	file:
+goal_line__	strategy2.c	/^goal_line__(char player)$/;"	f	file:
+has_wall	strategy3.c	/^has_wall(struct QuoridorBoard *board,$/;"	f	file:
+has_wall__	strategy2.c	/^has_wall__(struct QuoridorBoard *board,$/;"	f	file:
+is_blockable__	strategy2.c	/^is_blockable__(struct QuoridorBoard *board, char col, char line, char dir)$/;"	f	file:
+is_blockable_local	strategy3.c	/^is_blockable_local(struct QuoridorBoard *board,$/;"	f	file:
+is_empty	strategy3.c	/^is_empty(struct QuoridorBoard *board,$/;"	f	file:
+is_empty_stack	char_stack.c	/^is_empty_stack(struct CharStack const *s)$/;"	f
+is_valid_pawn_target	strategy3.c	/^is_valid_pawn_target(struct QuoridorBoard *board,$/;"	f	file:
+max	strategy3.c	/^max(int a, int b)$/;"	f	file:
+maximizingPlayer	strategy2.c	/^    char maximizingPlayer;$/;"	m	struct:QuoridorBoard	file:
+min	strategy3.c	/^min(int a, int b)$/;"	f	file:
+minimax	strategy2.c	/^minimax(struct QuoridorBoard *board,$/;"	f	file:
+minimax3	strategy3.c	/^minimax3(struct QuoridorBoard *board,$/;"	f	file:
+minimax_evaluation_function	strategy2.c	/^minimax_evaluation_function(struct QuoridorBoard *board)$/;"	f	file:
+minimax_evaluation_function	strategy3.c	/^minimax_evaluation_function(struct QuoridorBoard *board)$/;"	f	file:
+move_pawn__local	strategy2.c	/^move_pawn__local(struct QuoridorBoard *board,$/;"	f	file:
+move_pawn_local	strategy3.c	/^move_pawn_local(struct QuoridorBoard *board,$/;"	f	file:
+other_pawnMove_direction	strategy3.c	/^other_pawnMove_direction(char dir)$/;"	f	file:
+peek_stack	char_stack.c	/^peek_stack(struct CharStack const *s)$/;"	f
+place_wall__local	strategy2.c	/^place_wall__local(struct QuoridorBoard *board,$/;"	f	file:
+place_wall_local	strategy3.c	/^place_wall_local(struct QuoridorBoard *board,$/;"	f	file:
+player	strategy2.c	/^    char player; \/\/ the current Player ID (BLACK OR WHITE)$/;"	m	struct:QuoridorBoard	file:
+playerCol	strategy2.c	/^    char playerCol[2];$/;"	m	struct:QuoridorBoard	file:
+playerLine	strategy2.c	/^    char playerLine[2];$/;"	m	struct:QuoridorBoard	file:
+playerWalls	strategy2.c	/^    char playerWalls[2];$/;"	m	struct:QuoridorBoard	file:
+pop_stack	char_stack.c	/^pop_stack(struct CharStack *s)$/;"	f
+push_stack	char_stack.c	/^push_stack(struct CharStack *s, char c)$/;"	f
+remove_wall	strategy3.c	/^remove_wall(struct QuoridorBoard *board,$/;"	f	file:
+remove_wall__local	strategy2.c	/^remove_wall__local(struct QuoridorBoard *board,$/;"	f	file:
+server_pawnMove_direction	strategy3.c	/^server_pawnMove_direction(char dir)$/;"	f	file:
+set_edge_value	strategy2.c	/^set_edge_value(struct QuoridorBoard *board,$/;"	f	file:
+set_edge_value	strategy3.c	/^set_edge_value(struct QuoridorBoard *board,$/;"	f	file:
+set_wall	strategy3.c	/^set_wall(struct QuoridorBoard *board,$/;"	f	file:
+set_wall__local	strategy2.c	/^set_wall__local(struct QuoridorBoard *board,$/;"	f	file:
+strategy1__play	strategy1.c	/^void strategy1__play(const struct board *b)$/;"	f
+strategy2__play	strategy2.c	/^strategy2__play(const struct board *b)$/;"	f
+strategy3__play	strategy3.c	/^strategy3__play(const struct board *b)$/;"	f
+switch_player__	strategy2.c	/^switch_player__(struct QuoridorBoard *board)$/;"	f	file:
+switch_player_local	strategy3.c	/^switch_player_local(struct QuoridorBoard *board)$/;"	f	file:
+target_node	strategy3.c	/^target_node(char col, char line, char dir)$/;"	f	file:
+undo_move	strategy2.c	/^undo_move(struct QuoridorBoard *board, struct Move *move)$/;"	f	file:
+undo_move	strategy3.c	/^undo_move(struct QuoridorBoard *board, struct Move *move)$/;"	f	file:
+wall_intersect	strategy3.c	/^wall_intersect(struct QuoridorBoard *board,$/;"	f	file:
+wall_intersect__	strategy2.c	/^wall_intersect__(struct QuoridorBoard *board,$/;"	f	file:
+wall_overlap	strategy3.c	/^wall_overlap(struct QuoridorBoard *board,$/;"	f	file:
+wall_overlap__	strategy2.c	/^wall_overlap__(struct QuoridorBoard *board,$/;"	f	file:
